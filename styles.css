@@ -1,0 +1,63 @@
+body {
+    border: 1px solid black;
+    font-family: 'Slabo 27px', serif;
+}
+
+header {
+    background-color: lightgrey;
+}
+
+h1 {
+    margin: 0;
+}
+
+#get-new-container {
+    display: block;
+    border: 1px solid blue;
+}
+
+
+#list {
+    padding: 0px;
+    list-style: none;
+    border: 1px solid orange;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+li {
+    display: flex;
+}
+
+li img {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+/*.left {
+    border: 1px solid green;
+}*/
+
+.div {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+/*.item1 {
+    background-color: lightblue;
+}*/
+
+.item2 {
+    background-color: lightgreen;
+}
+
+.clicked {
+    opacity: 0.5;
+}
+
+button {
+    background-color: lightgrey;
+    padding: 5px 10px;
+}
